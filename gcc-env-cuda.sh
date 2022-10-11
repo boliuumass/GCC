@@ -6,4 +6,6 @@ conda env list
 
 # Install dgl-cuda, this can't use pip, so can't use requirements
 conda install -c dglteam dgl-cuda11.1
-pip install dgl-cu111==0.6.1
+conda install -c conda-forge rdkit=2019.09.2
+# this step already updated in the requirements file
+# pip install dgl-cu111==0.6.1
